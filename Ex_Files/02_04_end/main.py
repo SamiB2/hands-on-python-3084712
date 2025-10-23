@@ -9,7 +9,7 @@ while i < len(NAMES):
 for name in NAMES:
     print(name)
 
-for name, age in zip(NAMES, AGES):
+for name, age in zip(NAMES, AGES):#zip the together without boulding a new list
     print(f"{name} {age}")
 
 for name in reversed(NAMES):
@@ -20,4 +20,4 @@ for i in range(5):
 
 # enumerate
 for i, name in enumerate(NAMES):
-    print(f"{i} {name}")
+    print (f"{i} {name}")
